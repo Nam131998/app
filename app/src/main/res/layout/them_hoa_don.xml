@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="30dp">
+    <TextView
+        android:id="@+id/tvtitle"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="Lập hoá đơn phòng 1"
+        android:textStyle="bold"/>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tvThang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="18dp"
+            android:text="Tháng: "/>
+        <EditText
+            android:id="@+id/edThang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="18dp"
+            android:text="8"
+            android:maxLength="2"
+            android:ems="2"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tvNgay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:layout_marginRight="30dp"
+        android:text="Ngày lập:20/10/2019"/>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="Số Điện:" />
+
+        <EditText
+            android:id="@+id/edSoDien"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Số điện của phòng"
+            android:inputType="number"
+            android:textSize="18dp"
+            android:ems="8"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="Số Nước:" />
+
+        <EditText
+            android:id="@+id/edSoNuoc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Số nước của phòng"
+            android:inputType="number"
+            android:textSize="18dp"
+            android:ems="8"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="Chi phí khác:"
+            android:textSize="18dp" />
+        <EditText
+            android:id="@+id/edChiKhac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Chi Phí Khác"
+            android:inputType="number"
+            android:textSize="18dp"
+            android:ems="8"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btThemHoaDon"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:textSize="18dp"
+            android:text="Thêm" />
+        <Button
+            android:id="@+id/btHuy"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="Huỷ" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="30dp">
+    <TextView
+        android:id="@+id/tvtitle"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="Thêm phòng trọ"
+        android:textStyle="bold"/>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="Tên Phòng:" />
+
+        <EditText
+            android:id="@+id/edTenPhong"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Tên hoặc vị trí"
+            android:textSize="18dp"
+            android:ems="8"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="Sức chứa:"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/edSucchua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Số người tối đa"
+            android:textSize="18dp"
+            android:inputType="number"
+            android:ems="8"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="Diện tích:"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/edDienTich"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Ví dụ: 3x4"
+            android:textSize="18dp"
+            android:ems="8"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="Giá thuê:"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/edGiaThue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Giá thuê phòng"
+            android:textSize="18dp"
+            android:inputType="number"
+            android:ems="8"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="Số điện:"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/edSoDien"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Số điện hiện tại"
+            android:textSize="18dp"
+            android:inputType="number"
+            android:ems="8"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="Số nước:"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/edSoNuoc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Số nước hiện tại"
+            android:textSize="18dp"
+            android:inputType="number"
+            android:ems="8"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:text="Khác:"
+            android:textSize="18dp" />
+
+        <EditText
+            android:id="@+id/edTTKhac"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="Ví dụ: tolet ngoài"
+            android:textSize="18dp"
+            android:ems="8"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btThemPT"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="50dp"
+            android:textSize="18dp"
+            android:text="Thêm" />
+        <Button
+            android:id="@+id/btHuy"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="Huỷ" />
+    </LinearLayout>
+</LinearLayout>

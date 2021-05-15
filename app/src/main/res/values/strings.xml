@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">App Quản lý phòng trọ</string>
+    <string-array name="gioitinh">
+        <item>Nam</item>
+        <item>Nữ</item>
+    </string-array>
+</resources>
